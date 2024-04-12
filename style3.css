@@ -1,0 +1,169 @@
+header,
+footer {
+  padding: 1em;
+  color: rgb(12, 9, 9);
+  background-color: #6286bd;
+  clear: left;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica;
+  border: 1px solid gray;
+  flex-direction: column;
+  height: fit-content;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#toinen {
+  font-size: 10px;
+  color: rgb(6, 6, 7);
+  text-align: center;
+}
+div.container {
+  width: 100%;
+}
+
+p {
+  position: static;
+  left: 1px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+#nav2 {
+  float: left;
+  width: 10%;
+  background: #ccc;
+  border-right: 1px solid gray;
+  height: 800px;
+  font-size: 17px;
+}
+
+a:link {
+  color: #070707;
+}
+a:visited {
+  color: #4b2323;
+}
+a:focus {
+  color: #080707;
+}
+a:hover {
+  color: #f31313;
+}
+a:active {
+  color: #0a0a0a;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+#bar {
+  padding-left: 50px;
+  margin: 5px;
+}
+
+#sektio {
+  width: 100%;
+  height: 800px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  max-width: 100%;
+  background-color: #e0e0e9;
+  margin: 0;
+  padding: 1em;
+}
+
+nav ul a {
+  text-decoration: none;
+}
+
+section {
+  float: left;
+  width: 65%;
+  color: rgb(3, 3, 8);
+  height: 300px;
+}
+article {
+  float: left;
+  width: 45%;
+  padding: 50em;
+  color: rgb(8, 8, 9);
+  height: 230px;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding: 5em;
+  border-left: 1px solid rgb(108, 107, 107);
+  color: rgb(113, 113, 129);
+  height: 300px;
+}
+
+img {
+  border-radius : 10px;
+  width : 200px;
+  height : 200px;
+  object-fit : scale-down;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+ol {
+  list-style-type: none;
+  padding: 15px;
+  color: #0c0909;
+  float: right;
+}
+
+ul.custom-dots li::before {
+  content: "\2022"; 
+  color: #120f0e; 
+  margin-right: 10px; 
+  text-align: center; 
+}
+
+ul.custom-dots {
+  list-style: none; 
+  padding-left: 0; 
+  text-align: center; 
+}
+
+ul.custom-dots li {
+  display: inline-block; 
+  text-align: left; 
+  width: 60%; 
+  margin-bottom: 10px; 
+}
+
+
